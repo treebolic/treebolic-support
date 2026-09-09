@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#
+# Copyright (c) 2026. Bernard Bou
+#
+
 source "lib-artwork.sh"
 
 help="menu*.svg search*.svg tip*.svg toolbar*.svg"

@@ -1,5 +1,9 @@
 #!/usr/bin/bash
 
+#
+# Copyright (c) 2026. Bernard Bou
+#
+
 D="./output"
 Dcore="./output"
 echo $1 $2

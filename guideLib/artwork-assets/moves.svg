@@ -1,3 +1,7 @@
+<!--
+  - Copyright (c) 2026. Bernard Bou
+  -->
+
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256mm" height="256mm" viewBox="0 0 256 256">
 	<defs>
 		<radialGradient xlink:href="#a" id="b" cx="128.297" cy="128.314" r="122.54" fx="128.297" fy="128.314" gradientTransform="matrix(1 0 0 .99608 0 .503)" gradientUnits="userSpaceOnUse" />

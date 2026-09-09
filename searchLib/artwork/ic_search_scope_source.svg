@@ -1,3 +1,7 @@
+<!--
+  - Copyright (c) 2026. Bernard Bou
+  -->
+
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="64" height="64"><defs><linearGradient id="a" gradientTransform="matrix(0 0 0 0 -3260.066 -29357.349)"><stop offset="0" style="stop-color:#666;stop-opacity:1"/></linearGradient><linearGradient
 	id="b" gradientTransform="matrix(0 0 0 0 -9336253800 -853471230000)"><stop offset="0" style="stop-color:#666;stop-opacity:1"/></linearGradient><linearGradient id="c" gradientTransform="matrix(0 0 0 0 1700.175 -33104.196)"><stop offset="0" style="stop-color:#666;stop-opacity:1"/></linearGradient></defs>
 	<use xlink:href="#g5796" width="1250" height="1250" transform="matrix(.9964 0 0 .99792 -374.672 -829.388)" />

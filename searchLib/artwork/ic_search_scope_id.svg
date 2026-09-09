@@ -1,3 +1,7 @@
+<!--
+  - Copyright (c) 2026. Bernard Bou
+  -->
+
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="64" height="64"><defs><linearGradient id="a" gradientTransform="matrix(0 0 0 0 -1749.22 -36076.646)"><stop offset="0" style="stop-color:#666;stop-opacity:1"/></linearGradient></defs>
 	<use xlink:href="#g5796" width="1250" height="1250" transform="matrix(.9964 0 0 .99792 -258.453 -1346.256)" />
 	<use xlink:href="#g5796" width="1250" height="1250" transform="matrix(.98862 0 0 .99792 -257.86 -1325.694)" />

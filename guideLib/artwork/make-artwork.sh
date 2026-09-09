@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#
+# Copyright (c) 2026. Bernard Bou
+#
+
 source "lib-artwork.sh"
 
 tips="ic_tip_*.svg"
