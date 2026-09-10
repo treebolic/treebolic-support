@@ -197,13 +197,15 @@ abstract class BaseDownloadActivity : AppCompatCommonActivity(), View.OnClickLis
     override fun onPostCreate(savedInstanceState: Bundle?) {
         super.onPostCreate(savedInstanceState)
 
-        val downloadUri = downloadUrl?.toUri()
-        val downloadUriStr = downloadUri.toString()
-        val file = downloadUri?.lastPathSegment
-        val where = downloadUriStr.dropLast(file!!.length)
-        src!!.text = file
-        src2!!.text = where
-        target!!.text = getString(R.string.internal)
+        if (downloadUrl != null) {
+            val downloadUri = downloadUrl?.toUri()
+            val downloadUriStr = downloadUri.toString()
+            val file = downloadUri?.lastPathSegment
+            val where = downloadUriStr.dropLast(file!!.length)
+            src!!.text = file
+            src2!!.text = where
+            target!!.text = getString(R.string.internal)
+        }
     }
 
     @SuppressLint("UnspecifiedRegisterReceiverFlag")
@@ -400,7 +402,7 @@ abstract class BaseDownloadActivity : AppCompatCommonActivity(), View.OnClickLis
                 try {
                     Thread.sleep(2000)
                 } catch (_: InterruptedException) {
-                    
+
                 }
             }
         }.start()
