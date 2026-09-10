@@ -48,18 +48,21 @@
                 android:layout_gravity="center"
                 android:orientation="vertical">
 
-                <ProgressBar
+                <com.google.android.material.progressindicator.LinearProgressIndicator
                     android:id="@+id/progressBar"
-                    style="@android:style/Widget.Material.ProgressBar.Horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginHorizontal="20dp"
                     android:contentDescription="@string/download_progress"
+                    android:clickable="false"
+                    android:focusable="false"
                     android:indeterminate="false"
                     android:max="100"
                     android:progress="0"
-                    android:visibility="invisible" />
+                    android:visibility="invisible"
+                    app:trackThickness="24dp"
+                    app:trackCornerRadius="12dp" />
 
                 <TextView
                     android:id="@+id/progressStatus"
@@ -68,7 +71,16 @@
                     android:layout_gravity="center"
                     android:text="@string/download_status"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:visibility="invisible" />
+                    android:visibility="invisible"
+                    android:background="@android:color/transparent"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:textColor="@android:color/white"
+                    android:shadowColor="#BF000000"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
