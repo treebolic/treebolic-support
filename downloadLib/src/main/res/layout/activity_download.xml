@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true">
 
-            <LinearLayout
+            <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -82,7 +82,7 @@
                     android:shadowRadius="2"
                     android:textStyle="bold" />
 
-            </LinearLayout>
+            </FrameLayout>
 
             <include
                 android:id="@+id/downloadButton"
